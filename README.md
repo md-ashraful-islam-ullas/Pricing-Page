@@ -33,3 +33,5 @@ A responsive pricing page built from scratch with plain HTML and CSS, as a hands
 ## Testing
 
 Verified by resizing the browser window down to mobile widths and scrolling through the full page to confirm the sticky bar, hover states, and responsive stacking all behave correctly.
+
+---
