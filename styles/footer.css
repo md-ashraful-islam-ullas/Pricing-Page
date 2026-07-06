@@ -1,0 +1,42 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    background-color: rgb(26, 26, 46);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+footer div p {
+    color: white;
+    font-size: 18px;
+}
+
+footer div button {
+    border: solid;
+    border-width: 1px;
+    font-size: 16px;
+    padding: 8px 30px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(125, 211, 252);
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+footer div button:hover {
+    opacity: 0.8;
+}
